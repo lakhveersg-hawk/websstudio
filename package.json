@@ -9,7 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^14.2.11",
+    "isotope-layout": "^3.0.6",
+    "jquery": "^3.7.1",
+    "next": "^14.2.13",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
