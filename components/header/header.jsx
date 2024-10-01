@@ -22,52 +22,15 @@ export default function Header() {
                                     <ul>
                                         <li className="menu-item-has-children active">
                                             <a href="index.html">Home</a>
-                                            <ul>
-                                                <li><a href="index.html">Web Design</a></li>
-                                                <li><a href="index-2.html">Creative Studio</a></li>
-                                                <li><a href="index-3.html">Web Development</a></li>
-                                                <li><a href="index-4.html">Modern Agency</a></li>
-                                                <li><a href="index-5.html">It Solution</a></li>
-                                                <li><a href="index-6.html">Digital Agency</a></li>
-                                            </ul>
                                         </li>
                                         <li className="menu-item-has-children">
-                                            <a href="#">Pages</a>
-                                            <ul>
-                                                <li><a href="/about">About</a></li>
-                                                <li><a href="team.html">Team</a></li>
-                                                <li><a href="team-details.html">Team Details</a></li>
-                                                <li><a href="project.html">Portfolio</a></li>
-                                                <li><a href="project-details.html">Portfolio Details</a></li>
-                                                <li><a href="pricing.html">Pricing Plans</a></li>
-                                                <li><a href="faq.html">Faq</a></li>
-                                                <li><a href="error.html">404 Error</a></li>
-                                            </ul>
+                                            <a href="/about">About</a>
                                         </li>
                                         <li className="menu-item-has-children">
                                             <a href="service.html">Services</a>
-                                            <ul>
-                                                <li><a href="service.html">Service</a></li>
-                                                <li><a href="service-details.html">Service Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li className="menu-item-has-children">
-                                            <a href="shop.html">Shop</a>
-                                            <ul>
-                                                <li><a href="shop.html">Shop</a></li>
-                                                <li><a href="shop-details.html">Shop Details</a></li>
-                                                <li><a href="cart.html">Cart</a></li>
-                                                <li><a href="wishlist.html">Wishlist</a></li>
-                                                <li><a href="checkout.html">Checkout</a></li>
-                                            </ul>
                                         </li>
                                         <li className="menu-item-has-children">
                                             <a href="blog-grid.html">Blog</a>
-                                            <ul>
-                                                <li><a href="blog-grid.html">Blog Grid</a></li>
-                                                <li><a href="blog-grid-2.html">Blog list</a></li>
-                                                <li><a href="blog-details.html">Blog Details</a></li>
-                                            </ul>
                                         </li>
                                         <li><a href="/contact">Contact</a></li>
                                     </ul>
