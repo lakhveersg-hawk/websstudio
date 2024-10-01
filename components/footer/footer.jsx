@@ -1,18 +1,18 @@
-
+import Image from 'next/image';
 
 export default function Footer() {
     return (
         <>
         
         <footer className="footer-section bg-dark-1">
-            <div className="shape"><img src="assets/img/shapes/footer-shape.png" alt="footer"/></div>
+            <div className="shape"><Image src="assets/Image/shapes/footer-shape.png" alt="footer"/></div>
             <div className="container">
                 <div className="row footer-wrap">
                     <div className="col-lg-3 col-md-6">
                         <div className="footer-widget">
                             <div className="widget-header">
                                 <div className="footer-logo">
-                                    <a href="index.html"><img src="assets/img/logo/logo-2.png" alt="logo"/></a>
+                                    <a href="index.html"><Image src="assets/Image/logo/logo-2.png" alt="logo"/></a>
                                 </div>
                             </div>
                             <p className="mb-20">Centric aplications productize before front end vortals visualize front end is results and value added</p>

@@ -107,7 +107,7 @@ export default function Contact() {
                             <div class="section-heading">
                                 <h4 class="sub-heading after-none" data-text-animation="fade-in" data-duration="1.5">Contact Us</h4>
                                 <h2 class="section-title" data-text-animation data-split="word" data-duration="1">Let’s working together</h2>
-                                <p>Thank you for your interest in Attach Web Agency. We're excited to hear from you and discuss...</p>
+                                <p>Thank you for your interest in Attach Web Agency. Were excited to hear from you and discuss...</p>
                             </div>
                             <div class="contact-list">
                                 <div class="list-item">

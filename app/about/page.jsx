@@ -270,17 +270,17 @@ export default function About() {
                                                 <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                                                     <h3 className="title">Digital Web Design Agency</h3>
                                                     <p className="mb-20">A web design agency is a multifaceted entity that plays a pivotal role in shaping the digital presence of businesses and individuals alike. These agencies are dynamic hubs of creativity, technical expertise, and strategic thinking.</p>
-                                                    <p className="mb-0">At the core of a web design agency's essence lies the artistry of visual storytelling and user experience creation.</p>
+                                                    <p className="mb-0">At the core of a web design agency essence lies the artistry of visual storytelling and user experience creation.</p>
                                                 </div>
                                                 <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                                                     <h3 className="title">Digital Web Design Agency</h3>
                                                     <p className="mb-20">A web design agency is a multifaceted entity that plays a pivotal role in shaping the digital presence of businesses and individuals alike. These agencies are dynamic hubs of creativity, technical expertise, and strategic thinking.</p>
-                                                    <p className="mb-0">At the core of a web design agency's essence lies the artistry of visual storytelling and user experience creation.</p>
+                                                    <p className="mb-0">At the core of a web design agency essence lies the artistry of visual storytelling and user experience creation.</p>
                                                 </div>
                                                 <div className="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
                                                     <h3 className="title">Digital Web Design Agency</h3>
                                                     <p className="mb-20">A web design agency is a multifaceted entity that plays a pivotal role in shaping the digital presence of businesses and individuals alike. These agencies are dynamic hubs of creativity, technical expertise, and strategic thinking.</p>
-                                                    <p className="mb-0">At the core of a web design agency's essence lies the artistry of visual storytelling and user experience creation.</p>
+                                                    <p className="mb-0">At the core of a web design agency essence lies the artistry of visual storytelling and user experience creation.</p>
                                                 </div>
                                             </div>
                                         </div>
