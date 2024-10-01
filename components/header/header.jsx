@@ -1,4 +1,4 @@
-import Image from 'next/image';
+
 
 export default function Header() {
     return (
@@ -12,8 +12,8 @@ export default function Header() {
                     <div className="primary-header-inner">
                         <div className="header-logo d-lg-block">
                             <a href="index.html">
-                                <Image className="logo-dark" src="assets/Image/logo/logo-2.png" alt="Logo" />
-                                <Image className="logo-light" src="assets/Image/logo/logo-3.png" alt="Logo" />
+                                <img className="logo-dark" src="/assets/img/logo/logo-2.png" alt="Logo" />
+                                <img className="logo-light" src="/assets/img/logo/logo-3.png" alt="Logo" />
                             </a>
                         </div>
                         <div className="header-right-wrap">
@@ -21,7 +21,7 @@ export default function Header() {
                                 <div className="mobile-menu-items">
                                     <ul>
                                         <li className="menu-item-has-children active">
-                                            <a href="index.html">Home</a>
+                                            <a href="/page">Home</a>
                                         </li>
                                         <li className="menu-item-has-children">
                                             <a href="/about">About</a>
