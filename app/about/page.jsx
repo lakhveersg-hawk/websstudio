@@ -1,6 +1,6 @@
 // "use client";
-import Header from '../../components/header/header';
-import Footer from '../../components/footer/footer';
+import Header from '../../components/Header/header';
+import Footer from '../../components/Footer/footer';
 export default function About() {
     return (
         <>
