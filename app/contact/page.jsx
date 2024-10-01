@@ -1,4 +1,4 @@
-
+import Image from 'next/image';
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
 export default function Contact() {
@@ -35,8 +35,8 @@ export default function Contact() {
   </button>
             <div class="side-menu-content">
                 <div class="side-menu-logo">
-                    <a class="dark-img" href="index.html"><img src="assets/img/logo/logo-2.png" alt="logo"/></a>
-                    <a class="light-img" href="index.html"><img src="assets/img/logo/logo-3.png" alt="logo"/></a>
+                    <a class="dark-Image" href="index.html"><Image src="assets/Image/logo/logo-2.png" alt="logo"/></a>
+                    <a class="light-Image" href="index.html"><Image src="assets/Image/logo/logo-3.png" alt="logo"/></a>
                 </div>
                 <div class="side-menu-wrap"></div>
                 <div class="side-menu-about">
@@ -83,12 +83,12 @@ export default function Contact() {
     <div id="smooth-wrapper">
         <div id="smooth-content">
 
-        <section class="page-header" data-background="assets/img/bg-img/page-header-bg.jpg">
+        <section class="page-header" data-background="assets/Image/bg-Image/page-header-bg.jpg">
             <div class="overlay"></div>
             <div class="shapes">
-                <div class="shape shape-1"><img src="assets/img/shapes/page-header-shape-1.png" alt="shape"/></div>
-                <div class="shape shape-2"><img src="assets/img/shapes/page-header-shape-2.png" alt="shape"/></div>
-                <div class="shape shape-3"><img src="assets/img/shapes/page-header-shape-3.png" alt="shape"/></div>
+                <div class="shape shape-1"><Image src="assets/Image/shapes/page-header-shape-1.png" alt="shape"/></div>
+                <div class="shape shape-2"><Image src="assets/Image/shapes/page-header-shape-2.png" alt="shape"/></div>
+                <div class="shape shape-3"><Image src="assets/Image/shapes/page-header-shape-3.png" alt="shape"/></div>
             </div>
             <div class="container">
                 <div class="page-header-content text-center">

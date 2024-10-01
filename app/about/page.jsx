@@ -1,4 +1,4 @@
-// "use client";
+import Image from 'next/image';
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
 export default function About() {
@@ -38,8 +38,8 @@ export default function About() {
                 </button>
                 <div className="side-menu-content">
                     <div className="side-menu-logo">
-                        <a className="dark-img" href="index.html"><img src="assets/img/logo/logo-2.png" alt="logo" /></a>
-                        <a className="light-img" href="index.html"><img src="assets/img/logo/logo-3.png" alt="logo" /></a>
+                        <a className="dark-Image" href="index.html"><Image src="assets/Image/logo/logo-2.png" alt="logo" /></a>
+                        <a className="light-Image" href="index.html"><Image src="assets/Image/logo/logo-3.png" alt="logo" /></a>
                     </div>
                     <div className="side-menu-wrap"></div>
                     <div className="side-menu-about">
@@ -86,17 +86,17 @@ export default function About() {
             <div id="smooth-wrapper">
                 <div id="smooth-content">
 
-                    <section className="page-header" data-background="/assets/img/bg-img/page-header-bg.jpg">
+                    <section className="page-header" data-background="/assets/Image/bg-Image/page-header-bg.jpg">
                         <div className="overlay"></div>
                         <div className="shapes">
                             <div className="shape shape-1">
-                                <img src="assets/img/shapes/page-header-shape-1.png" alt="shape" width={100} height={100} />
+                                <Image src="assets/Image/shapes/page-header-shape-1.png" alt="shape" width={100} height={100} />
                             </div>
                             <div className="shape shape-2">
-                                <img src="/assets/img/shapes/page-header-shape-2.png" alt="shape" width={100} height={100} />
+                                <Image src="/assets/Image/shapes/page-header-shape-2.png" alt="shape" width={100} height={100} />
                             </div>
                             <div className="shape shape-3">
-                                <img src="/assets/img/shapes/page-header-shape-3.png" alt="shape" width={100} height={100} />
+                                <Image src="/assets/Image/shapes/page-header-shape-3.png" alt="shape" width={100} height={100} />
                             </div>
                         </div>
                         <div className="container">
@@ -115,16 +115,16 @@ export default function About() {
                         <div className="container">
                             <div className="row about-wrap-2 gy-lg-0 gy-4 align-items-center">
                                 <div className="col-lg-5 col-md-12">
-                                    <div className="about-img-box">
+                                    <div className="about-Image-box">
                                         <div className="shapes">
-                                            <img className="shape shape-1" src="/assets/img/shapes/about-shape-1.png" alt="about" width={100} height={100} />
-                                            <img className="shape shape-2" src="/assets/img/shapes/about-shape-2.png" alt="about" width={100} height={100} />
+                                            <Image className="shape shape-1" src="/assets/Image/shapes/about-shape-1.png" alt="about" width={100} height={100} />
+                                            <Image className="shape shape-2" src="/assets/Image/shapes/about-shape-2.png" alt="about" width={100} height={100} />
                                         </div>
-                                        <div className="img-1 reveal">
-                                            <img src="/assets/img/images/about-img-2.jpg" alt="about" width={600} height={400} />
+                                        <div className="Image-1 reveal">
+                                            <Image src="/assets/Image/images/about-Image-2.jpg" alt="about" width={600} height={400} />
                                         </div>
-                                        <div className="img-2 reveal">
-                                            <img src="/assets/img/images/about-img-3.jpg" alt="about" width={600} height={400} />
+                                        <div className="Image-2 reveal">
+                                            <Image src="/assets/Image/images/about-Image-3.jpg" alt="about" width={600} height={400} />
                                         </div>
                                     </div>
                                 </div>
@@ -142,7 +142,7 @@ export default function About() {
                                         <div className="about-items">
                                             <div className="about-item">
                                                 <div className="icon">
-                                                    <img src="/assets/img/icon/about-1.png" alt="icon" width={50} height={50} />
+                                                    <Image src="/assets/Image/icon/about-1.png" alt="icon" width={50} height={50} />
                                                 </div>
                                                 <div className="content">
                                                     <h4 className="title">Professional Creative <br />Team Members</h4>
@@ -150,7 +150,7 @@ export default function About() {
                                             </div>
                                             <div className="about-item">
                                                 <div className="icon">
-                                                    <img src="/assets/img/icon/about-2.png" alt="icon" width={50} height={50} />
+                                                    <Image src="/assets/Image/icon/about-2.png" alt="icon" width={50} height={50} />
                                                 </div>
                                                 <div className="content">
                                                     <h4 className="title">Provide Market Standard <br />Service to Client’s</h4>
@@ -234,7 +234,7 @@ export default function About() {
                     </section>
 
                     <div className="running-text running-3">
-                        <div className="bg-img" data-background="assets/img/bg-img/running-bg.jpg"></div>
+                        <div className="bg-Image" data-background="assets/Image/bg-Image/running-bg.jpg"></div>
                         <div className="carouselTicker carouselTicker-nav" data-speed="fast">
                             <ul className="text-anim carouselTicker__list scroller__inner inner-3">
                                 <li>Latest Projects</li>
@@ -287,16 +287,16 @@ export default function About() {
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
-                                    <div className="about-img-wrap-5">
+                                    <div className="about-Image-wrap-5">
                                         <div className="shapes">
-                                            <div className="shape shape-1"><img src="assets/img/shapes/about-shape-4.png" alt="shape" /></div>
-                                            <div className="shape shape-2"><img src="assets/img/shapes/about-shape-5.png" alt="shape" /></div>
+                                            <div className="shape shape-1"><Image src="assets/Image/shapes/about-shape-4.png" alt="shape" /></div>
+                                            <div className="shape shape-2"><Image src="assets/Image/shapes/about-shape-5.png" alt="shape" /></div>
                                         </div>
-                                        <div className="about-img reveal">
-                                            <img className="img-1" src="assets/img/images/about-img-8.png" alt="img" />
+                                        <div className="about-Image reveal">
+                                            <Image className="Image-1" src="assets/Image/images/about-Image-8.png" alt="Image" />
                                         </div>
-                                        <div className="about-img-2 reveal">
-                                            <img className="img-2" src="assets/img/images/about-img-9.png" alt="img" />
+                                        <div className="about-Image-2 reveal">
+                                            <Image className="Image-2" src="assets/Image/images/about-Image-9.png" alt="Image" />
                                         </div>
                                     </div>
                                 </div>
@@ -315,7 +315,7 @@ export default function About() {
                                     <div className="team-item fade-top">
                                         <div className="team-thumb">
                                             <div className="gradient-color"></div>
-                                            <img src="assets/img/team/team-1.png" alt="team" />
+                                            <Image src="assets/Image/team/team-1.png" alt="team" />
                                             <ul className="team-social-2">
                                                 <li className="facebook">
                                                     <a href="#"><i className="fab fa-facebook-f"></i></a>
@@ -341,7 +341,7 @@ export default function About() {
                                     <div className="team-item fade-top">
                                         <div className="team-thumb">
                                             <div className="gradient-color"></div>
-                                            <img src="assets/img/team/team-2.png" alt="team" />
+                                            <Image src="assets/Image/team/team-2.png" alt="team" />
                                             <ul className="team-social-2">
                                                 <li className="facebook">
                                                     <a href="#"><i className="fab fa-facebook-f"></i></a>
@@ -367,7 +367,7 @@ export default function About() {
                                     <div className="team-item fade-top">
                                         <div className="team-thumb">
                                             <div className="gradient-color"></div>
-                                            <img src="assets/img/team/team-3.png" alt="team" />
+                                            <Image src="assets/Image/team/team-3.png" alt="team" />
                                             <ul className="team-social-2">
                                                 <li className="facebook">
                                                     <a href="#"><i className="fab fa-facebook-f"></i></a>
@@ -393,7 +393,7 @@ export default function About() {
                                     <div className="team-item fade-top">
                                         <div className="team-thumb">
                                             <div className="gradient-color"></div>
-                                            <img src="assets/img/team/team-4.png" alt="team" />
+                                            <Image src="assets/Image/team/team-4.png" alt="team" />
                                             <ul className="team-social-2">
                                                 <li className="facebook">
                                                     <a href="#"><i className="fab fa-facebook-f"></i></a>
@@ -429,7 +429,7 @@ export default function About() {
                                 <div className="col-lg-4 col-md-6">
                                     <div className="testi-item item-3 text-center fade-top">
                                         <div className="testi-thumb">
-                                            <img src="assets/img/testi/testi-author-1.png" alt="img" />
+                                            <Image src="assets/Image/testi/testi-author-1.png" alt="Image" />
                                         </div>
                                         <div className="testi-content">
                                             <h3 className="author">Daniel Joseph <span>Writter</span></h3>
@@ -440,7 +440,7 @@ export default function About() {
                                 <div className="col-lg-4 col-md-6">
                                     <div className="testi-item item-3 text-center fade-top">
                                         <div className="testi-thumb">
-                                            <img src="assets/img/testi/testi-author-3.png" alt="img" />
+                                            <Image src="assets/Image/testi/testi-author-3.png" alt="Image" />
                                         </div>
                                         <div className="testi-content">
                                             <h3 className="author">Victoria Madison <span>Writter</span></h3>
@@ -451,7 +451,7 @@ export default function About() {
                                 <div className="col-lg-4 col-md-6">
                                     <div className="testi-item item-3 mb-0 text-center fade-top">
                                         <div className="testi-thumb">
-                                            <img src="assets/img/testi/testi-author-2.png" alt="img" />
+                                            <Image src="assets/Image/testi/testi-author-2.png" alt="Image" />
                                         </div>
                                         <div className="testi-content">
                                             <h3 className="author">Nicholas Thomas <span>Writter</span></h3>

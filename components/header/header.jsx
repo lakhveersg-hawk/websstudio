@@ -1,10 +1,6 @@
-"use client"
-import Link from "next/link";
-import React from 'react';
-import { useRouter } from "next/navigation";
+import Image from 'next/image';
 
 export default function Header() {
-    const router = useRouter();
     return (
         <>
             {/* <div id="preloader">
@@ -16,8 +12,8 @@ export default function Header() {
                     <div className="primary-header-inner">
                         <div className="header-logo d-lg-block">
                             <a href="index.html">
-                                <img className="logo-dark" src="assets/img/logo/logo-2.png" alt="Logo" />
-                                <img className="logo-light" src="assets/img/logo/logo-3.png" alt="Logo" />
+                                <Image className="logo-dark" src="assets/Image/logo/logo-2.png" alt="Logo" />
+                                <Image className="logo-light" src="assets/Image/logo/logo-3.png" alt="Logo" />
                             </a>
                         </div>
                         <div className="header-right-wrap">
